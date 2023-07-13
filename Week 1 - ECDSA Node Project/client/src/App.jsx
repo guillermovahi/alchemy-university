@@ -11,8 +11,13 @@ function App() {
 
   return (
     <>
+	<div className="alchemyHeader">
+		<img src="./alchemy-logo.svg" className="alchemyLogo" alt="Alchemy Logo" />
+		<h1>alchemy</h1>
+		<h1 className="alchemyBlue">[ university ]</h1>
+	</div>
 	<div className="header">
-		<h1>Week 1 - ECDSA Node Project</h1>
+		<h1>Week 1 - ECDSA Node</h1>
 	</div>
 	<div className="app">
       <Wallet
